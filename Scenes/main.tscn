@@ -1,0 +1,128 @@
+[gd_scene load_steps=9 format=3 uid="uid://bi3xearknafcx"]
+
+[ext_resource type="Script" uid="uid://b1x5spbeidbw4" path="res://Scripts/main.gd" id="1_jjvhh"]
+[ext_resource type="Script" uid="uid://clq830777ntce" path="res://Scripts/marker_2d.gd" id="2_bo1nx"]
+[ext_resource type="PackedScene" uid="uid://cdqgvssucc8dv" path="res://Scenes/player.tscn" id="4_kry3j"]
+[ext_resource type="Texture2D" uid="uid://pb8ffeqgef0c" path="res://Assets/kenney_boardgame-pack/Spritesheets/piecesRed.png" id="5_hptm8"]
+[ext_resource type="PackedScene" uid="uid://chchbq6scwnmt" path="res://Scenes/ui.tscn" id="6_21xkr"]
+[ext_resource type="Texture2D" uid="uid://055gcbmbx6j1" path="res://Assets/kenney_boardgame-pack/Spritesheets/piecesGreen.png" id="6_344ge"]
+[ext_resource type="Texture2D" uid="uid://bv4ywtgvedkij" path="res://Assets/kenney_boardgame-pack/Spritesheets/piecesBlue.png" id="6_d1ilt"]
+[ext_resource type="Texture2D" uid="uid://cl403rklvky4u" path="res://Assets/IMG_3466.jpeg" id="9_ynf5e"]
+
+[node name="Main" type="Node2D" node_paths=PackedStringArray("game_spaces")]
+script = ExtResource("1_jjvhh")
+game_spaces = [NodePath("Spaces/Start"), NodePath("Spaces/Space1"), NodePath("Spaces/Space2"), NodePath("Spaces/Space3"), NodePath("Spaces/Space4"), NodePath("Spaces/Space5"), NodePath("Spaces/Space6"), NodePath("Spaces/Space7"), NodePath("Spaces/Space8"), NodePath("Spaces/Space9"), NodePath("Spaces/Space10"), NodePath("Spaces/Space11"), NodePath("Spaces/Space12")]
+
+[node name="Spaces" type="Node2D" parent="."]
+
+[node name="Start" type="Marker2D" parent="Spaces"]
+position = Vector2(59, 69)
+gizmo_extents = 33.0
+script = ExtResource("2_bo1nx")
+space_type = 3
+
+[node name="Space1" type="Marker2D" parent="Spaces"]
+position = Vector2(174, 78)
+gizmo_extents = 33.0
+script = ExtResource("2_bo1nx")
+space_type = 1
+
+[node name="Space2" type="Marker2D" parent="Spaces"]
+position = Vector2(218, 80)
+gizmo_extents = 33.0
+script = ExtResource("2_bo1nx")
+
+[node name="Space3" type="Marker2D" parent="Spaces"]
+position = Vector2(259, 93)
+gizmo_extents = 33.0
+script = ExtResource("2_bo1nx")
+space_type = 1
+
+[node name="Space4" type="Marker2D" parent="Spaces"]
+position = Vector2(274, 68)
+gizmo_extents = 33.0
+script = ExtResource("2_bo1nx")
+space_type = 1
+
+[node name="Space5" type="Marker2D" parent="Spaces"]
+position = Vector2(300, 44)
+gizmo_extents = 33.0
+script = ExtResource("2_bo1nx")
+
+[node name="Space6" type="Marker2D" parent="Spaces"]
+position = Vector2(338, 34)
+gizmo_extents = 33.0
+script = ExtResource("2_bo1nx")
+space_type = 1
+
+[node name="Space7" type="Marker2D" parent="Spaces"]
+position = Vector2(377, 48)
+gizmo_extents = 33.0
+script = ExtResource("2_bo1nx")
+space_type = 1
+
+[node name="Space8" type="Marker2D" parent="Spaces"]
+position = Vector2(410, 71)
+gizmo_extents = 33.0
+script = ExtResource("2_bo1nx")
+space_type = 6
+
+[node name="Space9" type="Marker2D" parent="Spaces"]
+position = Vector2(450, 78)
+gizmo_extents = 33.0
+script = ExtResource("2_bo1nx")
+space_type = 1
+
+[node name="Space10" type="Marker2D" parent="Spaces"]
+position = Vector2(489, 60)
+gizmo_extents = 33.0
+script = ExtResource("2_bo1nx")
+
+[node name="Space11" type="Marker2D" parent="Spaces"]
+position = Vector2(529, 42)
+gizmo_extents = 33.0
+script = ExtResource("2_bo1nx")
+space_type = 1
+
+[node name="Space12" type="Marker2D" parent="Spaces"]
+position = Vector2(572, 52)
+gizmo_extents = 33.0
+script = ExtResource("2_bo1nx")
+space_type = 1
+
+[node name="Space13" type="Marker2D" parent="Spaces"]
+position = Vector2(602, 80)
+gizmo_extents = 33.0
+script = ExtResource("2_bo1nx")
+space_type = 1
+
+[node name="Space14" type="Marker2D" parent="Spaces"]
+position = Vector2(614, 114)
+gizmo_extents = 33.0
+script = ExtResource("2_bo1nx")
+space_type = 9
+
+[node name="player1" parent="." groups=["players"] instance=ExtResource("4_kry3j")]
+texture = ExtResource("5_hptm8")
+hframes = 19
+vframes = 3
+
+[node name="player2" parent="." groups=["players"] instance=ExtResource("4_kry3j")]
+texture = ExtResource("6_d1ilt")
+hframes = 19
+vframes = 3
+
+[node name="player3" parent="." groups=["players"] instance=ExtResource("4_kry3j")]
+texture = ExtResource("6_344ge")
+hframes = 19
+vframes = 3
+
+[node name="Img3466" type="Sprite2D" parent="."]
+modulate = Color(1, 1, 1, 0.28235295)
+z_index = -1
+position = Vector2(328.43747, 331.87503)
+scale = Vector2(0.23887028, 0.23288688)
+texture = ExtResource("9_ynf5e")
+metadata/_edit_lock_ = true
+
+[node name="Control" parent="." instance=ExtResource("6_21xkr")]
