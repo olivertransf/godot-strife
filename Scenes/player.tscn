@@ -1,20 +1,15 @@
-[gd_scene load_steps=3 format=3 uid="uid://cdqgvssucc8dv"]
+[gd_scene load_steps=3 format=3 uid="uid://ciflhu4sxo5yj"]
 
-[ext_resource type="Texture2D" uid="uid://wl5k0817ubvw" path="res://Assets/kenney_boardgame-pack/Spritesheets/piecesPurple.png" id="1_cvnsp"]
-[ext_resource type="Script" uid="uid://cfu57sfipvcyr" path="res://Scripts/player.gd" id="2_6t5aa"]
+[ext_resource type="Script" uid="uid://be5bxgh4u5qq" path="res://Scripts/player.gd" id="1_v0iea"]
 
-[node name="player" type="Sprite2D"]
-texture = ExtResource("1_cvnsp")
-hframes = 19
-vframes = 3
-script = ExtResource("2_6t5aa")
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_f60y1"]
+
+[node name="player" type="Node3D" groups=["players"]]
+script = ExtResource("1_v0iea")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("CapsuleMesh_f60y1")
 
 [node name="player_name" type="RichTextLabel" parent="."]
-offset_left = -60.0
-offset_top = -49.0
-offset_right = 60.0
-offset_bottom = -23.0
-text = "hi"
-scroll_active = false
-horizontal_alignment = 1
-vertical_alignment = 1
+offset_right = 40.0
+offset_bottom = 40.0

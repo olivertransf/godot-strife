@@ -1,36 +1,36 @@
-extends Node2D
+extends Node3D
 
 @export var game_spaces: Array[Node]
-@export var players: Dictionary[int, Sprite2D] = {}
+@export var players: Dictionary[int, Player] = {}
 
-var player_current_node: Dictionary[Sprite2D, Spaces] = {}
+var player_current_node: Dictionary[Player, Spaces] = {}
+
 
 @onready var turn_indicator: RichTextLabel = $Control/turn_indicator
-@onready var spin_button = $Control/Spin
+@onready var spin_button: Button = $Control/Spin
 @onready var timer: Timer = $Timer
-var pending_fork_choice: int = -1
-
+@onready var spin_number_text: RichTextLabel = $spin_number
 
 @onready var path_ui: Control = $"Control/PathUI/path_selector"
 @onready var choice_1_btn: Button = $"Control/PathUI/path_selector/choice1"
 @onready var choice_2_btn: Button = $"Control/PathUI/path_selector/choice2"
-@onready var spin_number_text: RichTextLabel = $spin_number
 
 var space_resolver := SpaceResolver.new()
 
 var turn_index: int = 0
-var current_player: Sprite2D
-var accept_input: bool = false
+var current_player: Player
+var accept_input := false
 
-var spin_preview_value: int = 1
-var is_spinning: bool = false
+var spin_preview_value := 1
+var is_spinning := false
+var pending_fork_choice := -1
 
 signal fork_path_selected(choice_index: int)
 
 func _ready() -> void:
 	randomize()
 
-	spin_button.pressed_to_main.connect(_on_button_pressed)
+	spin_button.pressed.connect(_on_button_pressed)
 	timer.timeout.connect(_on_timer_timeout)
 
 	choice_1_btn.pressed.connect(_on_fork_choice.bind(0))
@@ -87,7 +87,6 @@ func _on_button_pressed() -> void:
 	else:
 		pending_fork_choice = -1
 
-	# Spin logic continues here
 	is_spinning = true
 	timer.start()
 
@@ -111,6 +110,7 @@ func _on_fork_choice(index: int) -> void:
 func _set_current_player(index: int) -> void:
 	turn_index = index
 	current_player = players[turn_index]
+
 	turn_indicator.clear()
 	turn_indicator.add_text(current_player.name)
 
@@ -118,13 +118,14 @@ func _advance_turn() -> void:
 	turn_index += 1
 	if turn_index >= players.size():
 		turn_index = 0
+
 	_set_current_player(turn_index)
 
-func _move_player(spin: int, player: Sprite2D) -> void:
+func _move_player(spin: int, player: Player) -> void:
 	var current_node: Spaces = player_current_node[player]
 
 	for i in spin:
-		var next_paths = current_node.next_spaces
+		var next_paths := current_node.next_spaces
 		if next_paths.is_empty():
 			break
 
@@ -144,7 +145,7 @@ func _move_player(spin: int, player: Sprite2D) -> void:
 		var tween := create_tween()
 		tween.tween_property(
 			player,
-			"position",
+			"global_position",
 			target_node.global_position,
 			0.6
 		).set_trans(Tween.TRANS_SINE).set_ease(Tween.EASE_IN_OUT)
@@ -155,7 +156,6 @@ func _move_player(spin: int, player: Sprite2D) -> void:
 		player_current_node[player] = current_node
 
 	await _handle_space(current_node)
-
 
 func _handle_space(space: Spaces) -> void:
 	space_resolver.handle_space(space, current_player)

@@ -1,4 +1,4 @@
-extends Sprite2D
+extends Node3D
 class_name Player
 
 var color: Color
