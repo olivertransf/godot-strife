@@ -11,7 +11,12 @@ enum SpaceType {
 	SPIN2WIN,
 	TWINS,
 	STAR,
-	STOP
+	STOP,
+	BONUS,
+	DEBT,
+	END
 }
 
 @export var space_type: SpaceType
+
+@export var next_spaces: Array[NodePath] = []

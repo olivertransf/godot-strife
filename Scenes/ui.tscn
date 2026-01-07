@@ -82,3 +82,23 @@ offset_right = 1079.0
 offset_bottom = 162.0
 text = "SPin"
 script = ExtResource("1_jxero")
+
+[node name="PathUI" type="Control" parent="."]
+anchors_preset = 0
+offset_left = 840.0
+offset_top = 223.0
+offset_right = 1170.0
+offset_bottom = 293.0
+
+[node name="path_selector" type="HBoxContainer" parent="PathUI"]
+layout_mode = 0
+offset_right = 329.0
+offset_bottom = 69.0
+
+[node name="choice1" type="Button" parent="PathUI/path_selector"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="choice2" type="Button" parent="PathUI/path_selector"]
+layout_mode = 2
+size_flags_horizontal = 3
