@@ -18,8 +18,3 @@ config/icon="res://icon.svg"
 [global_group]
 
 players=""
-
-[rendering]
-
-renderer/rendering_method="gl_compatibility"
-renderer/rendering_method.mobile="gl_compatibility"

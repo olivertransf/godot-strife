@@ -1,14 +1,19 @@
-[gd_scene load_steps=3 format=3 uid="uid://ciflhu4sxo5yj"]
+[gd_scene load_steps=5 format=3 uid="uid://ciflhu4sxo5yj"]
 
 [ext_resource type="Script" uid="uid://be5bxgh4u5qq" path="res://Scripts/player.gd" id="1_v0iea"]
+[ext_resource type="ArrayMesh" uid="uid://dnuv4f2ledpjh" path="res://Assets/Convertible/Convertible.obj" id="2_6t5aa"]
+[ext_resource type="Texture2D" uid="uid://b30o3uxrmd0nb" path="res://Assets/Convertible/Convertible_BaseColor.png" id="3_vgqql"]
 
-[sub_resource type="CapsuleMesh" id="CapsuleMesh_f60y1"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fkybt"]
+albedo_texture = ExtResource("3_vgqql")
 
 [node name="player" type="Node3D" groups=["players"]]
 script = ExtResource("1_v0iea")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
-mesh = SubResource("CapsuleMesh_f60y1")
+transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0, 0.0050593615, 0)
+mesh = ExtResource("2_6t5aa")
+surface_material_override/0 = SubResource("StandardMaterial3D_fkybt")
 
 [node name="player_name" type="RichTextLabel" parent="."]
 offset_right = 40.0

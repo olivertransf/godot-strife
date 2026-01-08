@@ -1,0 +1,2353 @@
+[gd_scene load_steps=278 format=3 uid="uid://c58awnytudg73"]
+
+[ext_resource type="Script" uid="uid://ckaqph3cq4n6s" path="res://Scripts/main.gd" id="1_kry3j"]
+[ext_resource type="Texture2D" uid="uid://cl403rklvky4u" path="res://Assets/IMG_3466.jpeg" id="2_21xkr"]
+[ext_resource type="Script" uid="uid://d1tfvhjilcs31" path="res://Scripts/space.gd" id="3_6bp64"]
+[ext_resource type="Script" uid="uid://df7q6rvie26wt" path="res://Scripts/spaces.gd" id="3_344ge"]
+[ext_resource type="Script" uid="uid://cvofpuf6r7d8y" path="res://Scripts/button.gd" id="4_344ge"]
+[ext_resource type="PackedScene" uid="uid://ciflhu4sxo5yj" path="res://Scenes/player.tscn" id="5_ynf5e"]
+[ext_resource type="Script" uid="uid://dddcueg23kf66" path="res://Scripts/camera_3d.gd" id="6_21xkr"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6bp64"]
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_344ge"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ynf5e"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_hptm8"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_d1ilt"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_6iyac"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fdnlq"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_jkdf5"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wsu2k"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_k12tt"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_h1bgf"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_b3802"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fevyy"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_hibaj"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_pdsj5"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_ee4r6"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_gt3je"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_3pmx8"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_u50mg"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_cbgmd"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1w6v2"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_ueoa1"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6vcvc"]
+albedo_color = Color(1, 0, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_7k868"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hpc6h"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_kltya"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_e08e2"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_neg2b"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_r33sp"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_hdf80"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jwpg7"]
+albedo_color = Color(0, 0.8, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_k2e45"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_536cc"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_aqgau"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8cuat"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_o1aky"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kwxat"]
+albedo_color = Color(0.6, 0, 0.8, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_aa8k8"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kqrg6"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_nwwfm"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_s8vy0"]
+albedo_color = Color(0, 0.8, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_jut3y"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_v2nl5"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_dmskm"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xdkp6"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_54nrm"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_55jeb"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_gsvbx"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bv80c"]
+albedo_color = Color(1, 0, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_ptfg5"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2daye"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_1semv"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2060n"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_6ml46"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qax2n"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_y86h7"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_my4ki"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_lx3vj"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ynmfv"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_cblf0"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nay3j"]
+albedo_color = Color(0, 0.8, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_ovafv"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_owhal"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_uv6w5"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_r7bbj"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_e5peh"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_f6rfp"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_sasc4"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_pfx1i"]
+albedo_color = Color(0.6, 0.4, 0.2, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_fg68e"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jekl6"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_v1mrv"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fd3ed"]
+albedo_color = Color(1, 0, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_qnggo"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tab3y"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_1tvlp"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wl4bb"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_6h1fc"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vxl7x"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_ihvwq"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_k8rh3"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_55idt"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_87bhu"]
+albedo_color = Color(0, 0.8, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_33qc4"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_e6rcu"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_p4gyq"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_32dfi"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_cf2bd"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_lpdpw"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_jrou0"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_j2g22"]
+albedo_color = Color(0.6, 0.4, 0.2, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_phube"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_t014q"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_nb1ia"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3ahwd"]
+albedo_color = Color(0, 0.8, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_b4xsn"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ot5ec"]
+albedo_color = Color(0.5, 0.75, 1, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_aok0f"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_64lof"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_b4mik"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_urine"]
+albedo_color = Color(0.6, 0, 0.8, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_5vy51"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_o2owy"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_ylsbi"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ceghn"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_3h4bx"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xg142"]
+albedo_color = Color(0.6, 0.4, 0.2, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_rlvxq"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0fjpc"]
+albedo_color = Color(0, 0.8, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_gdwd6"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_cmq5c"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_7t1gx"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mfvrx"]
+albedo_color = Color(1, 0, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_ilwxp"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xjjvj"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_jab21"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8dylv"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_qv1an"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ja2pg"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_0wopu"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_na2ur"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_rlvdk"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_t6wb6"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_fvjqb"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_b05pg"]
+albedo_color = Color(0, 0.8, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_bdqux"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_e1jjv"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_stool"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ci23i"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_myryv"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bpr0e"]
+albedo_color = Color(0.5, 0.75, 1, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_14mkc"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_l78ku"]
+albedo_color = Color(0.6, 0.4, 0.2, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_hfu3o"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_adgm5"]
+albedo_color = Color(1, 0.4, 0.8, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_qxkn4"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_130ps"]
+albedo_color = Color(0.5, 0.75, 1, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_odn5n"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_b12iu"]
+albedo_color = Color(0, 0.8, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_gf7g1"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_102yd"]
+albedo_color = Color(1, 0.4, 0.8, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_rtmaq"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_eqnci"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_ojylq"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fle1e"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_r1tr8"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vlivj"]
+albedo_color = Color(1, 0, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_wt5iu"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_pmnrr"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_s8cid"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0w4wg"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_dllok"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0t4jf"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_daoo8"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fnc5k"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_658pa"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_gax0l"]
+albedo_color = Color(0.5, 0.75, 1, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_11vbv"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_m6w5j"]
+albedo_color = Color(1, 0.84, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_hprjy"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qhhnr"]
+albedo_color = Color(0.6, 0.4, 0.2, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_32yv2"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_85qtq"]
+albedo_color = Color(0, 0.8, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_8d8ul"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tctli"]
+albedo_color = Color(0, 0.5, 1, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_3qdko"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4fylk"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_fmflf"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6lvi0"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_2rlip"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_peks8"]
+albedo_color = Color(0.6, 0, 0.8, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_ve7nm"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_sbvnb"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_pkhog"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_b4mg0"]
+albedo_color = Color(1, 0.84, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_g52ui"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_144ni"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_vm2ri"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_reygs"]
+albedo_color = Color(0.6, 0.4, 0.2, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_tlp2u"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wx2j7"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_0jame"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_obsuk"]
+albedo_color = Color(0, 0.8, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_74dxy"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6ben7"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_pxch7"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_51a0c"]
+albedo_color = Color(1, 0, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_cqvvm"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_w7d74"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_y3nyc"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vwqqh"]
+albedo_color = Color(1, 0.84, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_svh2a"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ov07c"]
+albedo_color = Color(0, 0.8, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_p3tun"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ytyeu"]
+albedo_color = Color(1, 0.5, 0.5, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_suxc6"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_n3keg"]
+albedo_color = Color(0.4, 1, 0.4, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_fbhnc"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ersyc"]
+albedo_color = Color(1, 0.5, 0.5, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_c3mi8"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3mvvd"]
+albedo_color = Color(0, 0.8, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_jdldr"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ycl58"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_w32ys"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_g2ehk"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_b7esa"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_uo3nc"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_xtnwn"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4vtl5"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_y07ku"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_17dee"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_kt6vk"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_m76ja"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_tom0i"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rbkdr"]
+albedo_color = Color(0, 0.8, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_6wqo8"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qays4"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_brnef"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_37usx"]
+albedo_color = Color(0.6, 0, 0.8, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_qywy7"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_a361w"]
+albedo_color = Color(1, 0.84, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_4q4m1"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5fyhb"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_dx0u6"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_eyr7i"]
+albedo_color = Color(0.6, 0.4, 0.2, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_n45ei"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_04ry5"]
+albedo_color = Color(0, 0.8, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_8bce4"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_108im"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_rq0ss"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ltyjx"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_xnck3"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ffxd5"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_f2hid"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jwypt"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_bqs45"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_s2nl6"]
+albedo_color = Color(0, 0.8, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_ddyu8"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_e104q"]
+albedo_color = Color(1, 0.84, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_y6fhn"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ecp88"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_vhoi0"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jmisg"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_refj4"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_47mp3"]
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_dv4iu"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_e80kf"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_8lmbg"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_n2cpk"]
+albedo_color = Color(0, 0.8, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_k7w2v"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7va32"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_3xx7e"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ul0h4"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_gqipy"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ore4n"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_vpdwf"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6looh"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_o48hj"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_45mhg"]
+albedo_color = Color(1, 0.84, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_rgxdg"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tl5jb"]
+albedo_color = Color(0, 0.8, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_gckwj"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_m7bcm"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_x8wul"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rwfnq"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_ic5ri"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_yv31h"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_6ecqq"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_if84k"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nh8i1"]
+albedo_color = Color(0.01, 0.01, 0.0084, 1)
+
+[node name="Main" type="Node3D" node_paths=PackedStringArray("game_spaces")]
+script = ExtResource("1_kry3j")
+game_spaces = [NodePath("Spaces/Space0")]
+
+[node name="Board" type="Sprite3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, -0.007088661, 0.0066099167, -0.00594759)
+visible = false
+modulate = Color(1, 1, 1, 0.14509805)
+texture = ExtResource("2_21xkr")
+
+[node name="Spaces" type="Node3D" parent="."]
+script = ExtResource("3_344ge")
+
+[node name="Space0" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.020966, 0, 10.7927685)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 3
+next_spaces = Array[NodePath]([NodePath("../Space1"), NodePath("../Space122")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space0"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_6bp64")
+mesh = SubResource("CylinderMesh_344ge")
+
+[node name="Space1" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.862745, 0, 6.5775437)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space2")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space1"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_ynf5e")
+mesh = SubResource("CylinderMesh_hptm8")
+
+[node name="Space2" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.895132, 0, 4.5636454)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space3")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space2"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_d1ilt")
+mesh = SubResource("CylinderMesh_6iyac")
+
+[node name="Space3" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.038698, 0, 2.638691)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space4")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space3"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_fdnlq")
+mesh = SubResource("CylinderMesh_jkdf5")
+
+[node name="Space4" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.496248, 0, 1.1457282)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space5")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space4"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_wsu2k")
+mesh = SubResource("CylinderMesh_k12tt")
+
+[node name="Space5" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.630516, 0, 0.4793681)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space6")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space5"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_h1bgf")
+mesh = SubResource("CylinderMesh_b3802")
+
+[node name="Space6" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.669844, 0, 0.4579587)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space7")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space6"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_fevyy")
+mesh = SubResource("CylinderMesh_hibaj")
+
+[node name="Space7" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.89836, 0, 1.0598447)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space8")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space7"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_pdsj5")
+mesh = SubResource("CylinderMesh_ee4r6")
+
+[node name="Space8" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.4496185, 0, 2.2648768)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space9")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space8"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_gt3je")
+mesh = SubResource("CylinderMesh_3pmx8")
+
+[node name="Space9" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.45845544, 0, 4.143116)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space10")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space9"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_u50mg")
+mesh = SubResource("CylinderMesh_cbgmd")
+
+[node name="Space10" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.3353464, 0, 6.0034575)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space11")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space10"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_1w6v2")
+mesh = SubResource("CylinderMesh_ueoa1")
+
+[node name="Space11" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.7219563, 0, 7.6961775)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 9
+next_spaces = Array[NodePath]([NodePath("../Space12")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space11"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_6vcvc")
+mesh = SubResource("CylinderMesh_7k868")
+
+[node name="Space12" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.447077, 0, 9.020725)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space13")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space12"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_hpc6h")
+mesh = SubResource("CylinderMesh_kltya")
+
+[node name="Space13" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.7502491, 0, 10.215815)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space14")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space13"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_e08e2")
+mesh = SubResource("CylinderMesh_neg2b")
+
+[node name="Space14" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.3220828, 0, 11.222304)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space15")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space14"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_r33sp")
+mesh = SubResource("CylinderMesh_hdf80")
+
+[node name="Space15" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.2891048, 0, 12.34242)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+next_spaces = Array[NodePath]([NodePath("../Space16")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space15"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_jwpg7")
+mesh = SubResource("CylinderMesh_k2e45")
+
+[node name="Space16" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.38582802, 0, 12.34242)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space17")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space16"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_536cc")
+mesh = SubResource("CylinderMesh_aqgau")
+
+[node name="Space17" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.91, 0, 11.81)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space18")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space17"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_8cuat")
+mesh = SubResource("CylinderMesh_o1aky")
+
+[node name="Space18" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.266, 0, 10.836)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 6
+next_spaces = Array[NodePath]([NodePath("../Space19")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space18"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_kwxat")
+mesh = SubResource("CylinderMesh_aa8k8")
+
+[node name="Space19" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.964, 0, 10.472)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space20")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space19"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_kqrg6")
+mesh = SubResource("CylinderMesh_nwwfm")
+
+[node name="Space20" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.478, 0, 11.312)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+next_spaces = Array[NodePath]([NodePath("../Space21")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space20"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_s8vy0")
+mesh = SubResource("CylinderMesh_jut3y")
+
+[node name="Space21" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.101, 0, 12.056)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space22")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space21"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_v2nl5")
+mesh = SubResource("CylinderMesh_dmskm")
+
+[node name="Space22" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.300673, 0, 12.055922)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space23")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space22"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_xdkp6")
+mesh = SubResource("CylinderMesh_54nrm")
+
+[node name="Space23" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.5109005, 0, 10.813144)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space24")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space23"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_55jeb")
+mesh = SubResource("CylinderMesh_gsvbx")
+
+[node name="Space24" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.001558, 0, 9.399721)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 9
+next_spaces = Array[NodePath]([NodePath("../Space25")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space24"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_bv80c")
+mesh = SubResource("CylinderMesh_ptfg5")
+
+[node name="Space25" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.776447, 0, 7.7948074)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space26")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space25"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_2daye")
+mesh = SubResource("CylinderMesh_1semv")
+
+[node name="Space26" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.646915, 0, 6.7444115)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space27")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space26"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_2060n")
+mesh = SubResource("CylinderMesh_6ml46")
+
+[node name="Space27" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.095534, 0, 5.776763)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space28")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space27"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_qax2n")
+mesh = SubResource("CylinderMesh_y86h7")
+
+[node name="Space28" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.327512, 0, 4.1085978)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space29")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space28"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_my4ki")
+mesh = SubResource("CylinderMesh_lx3vj")
+
+[node name="Space29" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.822835, 0, 2.658348)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space30")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space29"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_ynmfv")
+mesh = SubResource("CylinderMesh_cblf0")
+
+[node name="Space30" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.275979, 0, 1.1885701)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+next_spaces = Array[NodePath]([NodePath("../Space31")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space30"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_nay3j")
+mesh = SubResource("CylinderMesh_ovafv")
+
+[node name="Space31" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.894137, 0, -0.27632225)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space32")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space31"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_owhal")
+mesh = SubResource("CylinderMesh_uv6w5")
+
+[node name="Space32" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.409312, 0, -1.7441055)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space33")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space32"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_r7bbj")
+mesh = SubResource("CylinderMesh_e5peh")
+
+[node name="Space33" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.001551, 0, -3.3343735)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space34")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space33"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_f6rfp")
+mesh = SubResource("CylinderMesh_sasc4")
+
+[node name="Space34" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.04507, 0, -4.9769387)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 2
+next_spaces = Array[NodePath]([NodePath("../Space35")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space34"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_pfx1i")
+mesh = SubResource("CylinderMesh_fg68e")
+
+[node name="Space35" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.773345, 0, -5.340882)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 9
+next_spaces = Array[NodePath]([NodePath("../Space36")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space35"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_jekl6")
+mesh = SubResource("CylinderMesh_v1mrv")
+
+[node name="Space36" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.4024725, 0, -5.5605526)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space37"), NodePath("../Space124")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space36"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_fd3ed")
+mesh = SubResource("CylinderMesh_qnggo")
+
+[node name="Space37" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.8588676, 0, -5.9224257)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space38")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space37"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_tab3y")
+mesh = SubResource("CylinderMesh_1tvlp")
+
+[node name="Space38" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.0155654, 0, -6.8942623)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space39")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space38"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_wl4bb")
+mesh = SubResource("CylinderMesh_6h1fc")
+
+[node name="Space39" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.348499, 0, -8.345735)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space40")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space39"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_vxl7x")
+mesh = SubResource("CylinderMesh_ihvwq")
+
+[node name="Space40" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.055493, 0, -9.945761)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+next_spaces = Array[NodePath]([NodePath("../Space41")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space40"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_k8rh3")
+mesh = SubResource("CylinderMesh_55idt")
+
+[node name="Space41" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.4531655, 0, -11.6257)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space42")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space41"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_87bhu")
+mesh = SubResource("CylinderMesh_33qc4")
+
+[node name="Space42" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.9485054, 0, -11.931566)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space43")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space42"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_e6rcu")
+mesh = SubResource("CylinderMesh_p4gyq")
+
+[node name="Space43" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.346085, 0, -11.37242)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space44")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space43"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_32dfi")
+mesh = SubResource("CylinderMesh_cf2bd")
+
+[node name="Space44" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.1767604, 0, -10.148191)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 2
+next_spaces = Array[NodePath]([NodePath("../Space45")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space44"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_lpdpw")
+mesh = SubResource("CylinderMesh_jrou0")
+
+[node name="Space45" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.4922583, 0, -8.669507)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space46")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space45"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_j2g22")
+mesh = SubResource("CylinderMesh_phube")
+
+[node name="Space46" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.4042871, 0, -7.032239)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+next_spaces = Array[NodePath]([NodePath("../Space47")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space46"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_t014q")
+mesh = SubResource("CylinderMesh_nb1ia")
+
+[node name="Space47" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.9607084, 0, -5.265556)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+next_spaces = Array[NodePath]([NodePath("../Space48")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space47"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_3ahwd")
+mesh = SubResource("CylinderMesh_b4xsn")
+
+[node name="Space48" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.8561332, 0, -4.0662804)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 7
+next_spaces = Array[NodePath]([NodePath("../Space49")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space48"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_ot5ec")
+mesh = SubResource("CylinderMesh_aok0f")
+
+[node name="Space49" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.2898386, 0, -3.0320258)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space50")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space49"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_64lof")
+mesh = SubResource("CylinderMesh_b4mik")
+
+[node name="Space50" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.7076845, 0, -2.4592042)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 6
+next_spaces = Array[NodePath]([NodePath("../Space51")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space50"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_urine")
+mesh = SubResource("CylinderMesh_5vy51")
+
+[node name="Space51" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.119378, 0, -1.690917)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space52")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space51"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_o2owy")
+mesh = SubResource("CylinderMesh_ylsbi")
+
+[node name="Space52" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.1164722, 0, -0.7562859)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 2
+next_spaces = Array[NodePath]([NodePath("../Space53")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space52"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_ceghn")
+mesh = SubResource("CylinderMesh_3h4bx")
+
+[node name="Space53" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.5354075, 0, 0.83994174)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 2
+next_spaces = Array[NodePath]([NodePath("../Space54")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space53"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, -0.070801735, 0, 0)
+material_override = SubResource("StandardMaterial3D_xg142")
+mesh = SubResource("CylinderMesh_rlvxq")
+
+[node name="Space54" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.634619, 0, 2.2994814)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+next_spaces = Array[NodePath]([NodePath("../Space55")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space54"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_0fjpc")
+mesh = SubResource("CylinderMesh_gdwd6")
+
+[node name="Space55" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.5831017, 0, 3.672327)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space55"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_cmq5c")
+mesh = SubResource("CylinderMesh_7t1gx")
+
+[node name="Space56" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.4980855, 0, 4.948513)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 9
+next_spaces = Array[NodePath]([NodePath("../Space57"), NodePath("../Space64")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space56"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_mfvrx")
+mesh = SubResource("CylinderMesh_ilwxp")
+
+[node name="Space57" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.059723, 0, 4.795461)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space58")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space57"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_xjjvj")
+mesh = SubResource("CylinderMesh_jab21")
+
+[node name="Space58" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.9598355, 0, 3.7089815)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space59")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space58"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_8dylv")
+mesh = SubResource("CylinderMesh_qv1an")
+
+[node name="Space59" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.9475102, 0, 1.9471495)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space60")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space59"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_ja2pg")
+mesh = SubResource("CylinderMesh_0wopu")
+
+[node name="Space60" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.0241265, 0, 0.23483396)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space61")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space60"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_na2ur")
+mesh = SubResource("CylinderMesh_rlvdk")
+
+[node name="Space61" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.87536, 0, -0.70155144)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space62")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space61"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_t6wb6")
+mesh = SubResource("CylinderMesh_fvjqb")
+
+[node name="Space62" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.69248, 0, 0.22773695)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+next_spaces = Array[NodePath]([NodePath("../Space63")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space62"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_b05pg")
+mesh = SubResource("CylinderMesh_bdqux")
+
+[node name="Space63" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.9700117, 0, 1.3317049)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space75")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space63"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_e1jjv")
+mesh = SubResource("CylinderMesh_stool")
+
+[node name="Space64" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.0249248, 0, 6.229273)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space65")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space64"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_ci23i")
+mesh = SubResource("CylinderMesh_myryv")
+
+[node name="Space65" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.481884, 0, 7.5082393)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 7
+next_spaces = Array[NodePath]([NodePath("../Space66")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space65"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_bpr0e")
+mesh = SubResource("CylinderMesh_14mkc")
+
+[node name="Space66" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.603286, 0, 8.501648)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 2
+next_spaces = Array[NodePath]([NodePath("../Space67")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space66"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_l78ku")
+mesh = SubResource("CylinderMesh_hfu3o")
+
+[node name="Space67" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.2346263, 0, 9.287861)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 5
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space67"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_adgm5")
+mesh = SubResource("CylinderMesh_qxkn4")
+
+[node name="Space68" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.807572, 0, 9.252607)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 7
+next_spaces = Array[NodePath]([NodePath("../Space70")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space68"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_130ps")
+mesh = SubResource("CylinderMesh_odn5n")
+
+[node name="Space70" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5363247, 0, 8.479578)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+next_spaces = Array[NodePath]([NodePath("../Space71")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space70"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_b12iu")
+mesh = SubResource("CylinderMesh_gf7g1")
+
+[node name="Space71" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.9970614, 0, 7.241526)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 5
+next_spaces = Array[NodePath]([NodePath("../Space72")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space71"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_102yd")
+mesh = SubResource("CylinderMesh_rtmaq")
+
+[node name="Space72" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.9148507, 0, 5.5659127)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space73")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space72"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_eqnci")
+mesh = SubResource("CylinderMesh_ojylq")
+
+[node name="Space73" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.87218106, 0, 4.130936)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space73"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_fle1e")
+mesh = SubResource("CylinderMesh_r1tr8")
+
+[node name="Space74" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.909523, 0, 2.8966231)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 9
+next_spaces = Array[NodePath]([NodePath("../Space75")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space74"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_vlivj")
+mesh = SubResource("CylinderMesh_wt5iu")
+
+[node name="Space75" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.9635074, 0, 1.3401412)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space76")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space75"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_pmnrr")
+mesh = SubResource("CylinderMesh_s8cid")
+
+[node name="Space76" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.9899169, 0, -0.08767629)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space77")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space76"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_0w4wg")
+mesh = SubResource("CylinderMesh_dllok")
+
+[node name="Space77" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.7959188, 0, -1.8718097)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space78")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space77"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_0t4jf")
+mesh = SubResource("CylinderMesh_daoo8")
+
+[node name="Space78" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.67108667, 0, -1.9342422)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space78"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_fnc5k")
+mesh = SubResource("CylinderMesh_658pa")
+
+[node name="Space79" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.3049216, 0, -3.0036688)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 7
+next_spaces = Array[NodePath]([NodePath("../Space80")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space79"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_gax0l")
+mesh = SubResource("CylinderMesh_11vbv")
+
+[node name="Space80" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.89660215, 0, -4.6263394)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 8
+next_spaces = Array[NodePath]([NodePath("../Space81")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space80"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_m6w5j")
+mesh = SubResource("CylinderMesh_hprjy")
+
+[node name="Space81" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.853544, 0, -6.2289953)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 2
+next_spaces = Array[NodePath]([NodePath("../Space82")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space81"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_qhhnr")
+mesh = SubResource("CylinderMesh_32yv2")
+
+[node name="Space82" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.86187804, 0, -8.1092825)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+next_spaces = Array[NodePath]([NodePath("../Space83")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space82"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_85qtq")
+mesh = SubResource("CylinderMesh_8d8ul")
+
+[node name="Space83" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.8500911, 0, -9.839437)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 4
+next_spaces = Array[NodePath]([NodePath("../Space84")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space83"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_tctli")
+mesh = SubResource("CylinderMesh_3qdko")
+
+[node name="Space84" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.1706244, 0, -11.78574)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space85")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space84"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_4fylk")
+mesh = SubResource("CylinderMesh_fmflf")
+
+[node name="Space85" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.6428142, 0, -11.980494)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space86")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space85"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_6lvi0")
+mesh = SubResource("CylinderMesh_2rlip")
+
+[node name="Space86" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.1614685, 0, -11.045081)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 6
+next_spaces = Array[NodePath]([NodePath("../Space87")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space86"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_peks8")
+mesh = SubResource("CylinderMesh_ve7nm")
+
+[node name="Space87" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.7565866, 0, -11.678321)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space88")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space87"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_sbvnb")
+mesh = SubResource("CylinderMesh_pkhog")
+
+[node name="Space88" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.318384, 0, -12.186251)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 8
+next_spaces = Array[NodePath]([NodePath("../Space89")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space88"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_b4mg0")
+mesh = SubResource("CylinderMesh_g52ui")
+
+[node name="Space89" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.916979, 0, -12.138604)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space90")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space89"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_144ni")
+mesh = SubResource("CylinderMesh_vm2ri")
+
+[node name="Space90" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.741632, 0, -12.132441)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 2
+next_spaces = Array[NodePath]([NodePath("../Space91")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space90"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_reygs")
+mesh = SubResource("CylinderMesh_tlp2u")
+
+[node name="Space91" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.302368, 0, -11.952339)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space92")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space91"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_wx2j7")
+mesh = SubResource("CylinderMesh_0jame")
+
+[node name="Space92" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.797444, 0, -10.259592)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+next_spaces = Array[NodePath]([NodePath("../Space93")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space92"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_obsuk")
+mesh = SubResource("CylinderMesh_74dxy")
+
+[node name="Space93" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.702483, 0, -8.816857)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space94")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space93"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_6ben7")
+mesh = SubResource("CylinderMesh_pxch7")
+
+[node name="Space94" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.658536, 0, -7.1916924)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 9
+next_spaces = Array[NodePath]([NodePath("../Space95"), NodePath("../Space100")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space94"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_51a0c")
+mesh = SubResource("CylinderMesh_cqvvm")
+
+[node name="Space95" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.270933, 0, -7.3088484)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space96")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space95"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_w7d74")
+mesh = SubResource("CylinderMesh_y3nyc")
+
+[node name="Space96" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.099562, 0, -7.3307614)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 8
+next_spaces = Array[NodePath]([NodePath("../Space97")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space96"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_vwqqh")
+mesh = SubResource("CylinderMesh_svh2a")
+
+[node name="Space97" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.604753, 0, -6.9764266)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+next_spaces = Array[NodePath]([NodePath("../Space98")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space97"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_ov07c")
+mesh = SubResource("CylinderMesh_p3tun")
+
+[node name="Space98" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.716544, 0, -5.640159)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 11
+next_spaces = Array[NodePath]([NodePath("../Space133")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space98"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_ytyeu")
+mesh = SubResource("CylinderMesh_suxc6")
+
+[node name="Space133" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.792094, 0, -4.543121)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 10
+next_spaces = Array[NodePath]([NodePath("../Space134")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space133"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_n3keg")
+mesh = SubResource("CylinderMesh_fbhnc")
+
+[node name="Space134" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.758147, 0, -3.2150857)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 11
+next_spaces = Array[NodePath]([NodePath("../Space99")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space134"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_ersyc")
+mesh = SubResource("CylinderMesh_c3mi8")
+
+[node name="Space99" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.981648, 0, -2.0531702)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space99"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_3mvvd")
+mesh = SubResource("CylinderMesh_jdldr")
+
+[node name="Space100" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.677634, 0, -5.940632)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space101")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space100"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_ycl58")
+mesh = SubResource("CylinderMesh_w32ys")
+
+[node name="Space101" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.664568, 0, -4.626236)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space102")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space101"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_g2ehk")
+mesh = SubResource("CylinderMesh_b7esa")
+
+[node name="Space102" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.609085, 0, -3.1889691)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space103")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space102"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_uo3nc")
+mesh = SubResource("CylinderMesh_xtnwn")
+
+[node name="Space103" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.657227, 0, -1.6183331)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space104")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space103"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_4vtl5")
+mesh = SubResource("CylinderMesh_y07ku")
+
+[node name="Space104" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.337774, 0, 0.021274924)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space105")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space104"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_17dee")
+mesh = SubResource("CylinderMesh_kt6vk")
+
+[node name="Space105" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.200951, 0, 0.5257844)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space106")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space105"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_m76ja")
+mesh = SubResource("CylinderMesh_tom0i")
+
+[node name="Space106" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.244293, 0, -0.56696904)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+next_spaces = Array[NodePath]([NodePath("../Space107")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space106"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_rbkdr")
+mesh = SubResource("CylinderMesh_6wqo8")
+
+[node name="Space107" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.560801, 0, -0.8258643)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space108")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space107"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_qays4")
+mesh = SubResource("CylinderMesh_brnef")
+
+[node name="Space108" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.1034226, 0, -0.72171247)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 6
+next_spaces = Array[NodePath]([NodePath("../Space109")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space108"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_37usx")
+mesh = SubResource("CylinderMesh_qywy7")
+
+[node name="Space109" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.740605, 0, -0.70464075)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 8
+next_spaces = Array[NodePath]([NodePath("../Space110")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space109"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_a361w")
+mesh = SubResource("CylinderMesh_4q4m1")
+
+[node name="Space110" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.304636, 0, -0.73714817)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space111")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space110"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_5fyhb")
+mesh = SubResource("CylinderMesh_dx0u6")
+
+[node name="Space111" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.0168302, 0, -0.9980321)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 2
+next_spaces = Array[NodePath]([NodePath("../Space112")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space111"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_eyr7i")
+mesh = SubResource("CylinderMesh_n45ei")
+
+[node name="Space112" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.821107, 0, -2.4606242)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+next_spaces = Array[NodePath]([NodePath("../Space113")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space112"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_04ry5")
+mesh = SubResource("CylinderMesh_8bce4")
+
+[node name="Space113" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.2373304, 0, -2.5823014)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space114")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space113"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_108im")
+mesh = SubResource("CylinderMesh_rq0ss")
+
+[node name="Space114" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.6672764, 0, -2.5777166)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space115")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space114"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_ltyjx")
+mesh = SubResource("CylinderMesh_xnck3")
+
+[node name="Space115" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.9889235, 0, -3.045204)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space116")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space115"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_ffxd5")
+mesh = SubResource("CylinderMesh_f2hid")
+
+[node name="Space116" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.0811205, 0, -4.5605364)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space117")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space116"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_jwypt")
+mesh = SubResource("CylinderMesh_bqs45")
+
+[node name="Space117" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.6700983, 0, -4.8845563)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+next_spaces = Array[NodePath]([NodePath("../Space118")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space117"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_s2nl6")
+mesh = SubResource("CylinderMesh_ddyu8")
+
+[node name="Space118" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.223692, 0, -4.79184)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 8
+next_spaces = Array[NodePath]([NodePath("../Space119")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space118"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_e104q")
+mesh = SubResource("CylinderMesh_y6fhn")
+
+[node name="Space119" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.7733393, 0, -5.085719)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space120")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space119"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_ecp88")
+mesh = SubResource("CylinderMesh_vhoi0")
+
+[node name="Space120" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.824913, 0, -6.3937564)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space121")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space120"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_jmisg")
+mesh = SubResource("CylinderMesh_refj4")
+
+[node name="Space121" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.4013715, 0, -7.404294)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 12
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space121"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_47mp3")
+mesh = SubResource("CylinderMesh_dv4iu")
+
+[node name="Space122" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.4349084, 0, 10.714316)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space123")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space122"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_e80kf")
+mesh = SubResource("CylinderMesh_8lmbg")
+
+[node name="Space123" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.486665, 0, 10.656873)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+next_spaces = Array[NodePath]([NodePath("../Space13")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space123"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_n2cpk")
+mesh = SubResource("CylinderMesh_k7w2v")
+
+[node name="Space124" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.077013, 0, -4.0626216)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space125")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space124"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_7va32")
+mesh = SubResource("CylinderMesh_3xx7e")
+
+[node name="Space125" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.041704, 0, -3.1001604)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space126")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space125"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_ul0h4")
+mesh = SubResource("CylinderMesh_gqipy")
+
+[node name="Space126" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.7231307, 0, -3.2389023)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space127")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space126"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_ore4n")
+mesh = SubResource("CylinderMesh_vpdwf")
+
+[node name="Space127" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.770437, 0, -4.327735)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space128")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space127"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_6looh")
+mesh = SubResource("CylinderMesh_o48hj")
+
+[node name="Space128" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.878688, 0, -5.514502)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 8
+next_spaces = Array[NodePath]([NodePath("../Space129")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space128"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_45mhg")
+mesh = SubResource("CylinderMesh_rgxdg")
+
+[node name="Space129" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.4160805, 0, -5.514308)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+next_spaces = Array[NodePath]([NodePath("../Space130")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space129"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_tl5jb")
+mesh = SubResource("CylinderMesh_gckwj")
+
+[node name="Space130" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.192362, 0, -6.7248707)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space131")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space130"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_m7bcm")
+mesh = SubResource("CylinderMesh_x8wul")
+
+[node name="Space131" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.590537, 0, -8.28375)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space132")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space131"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_rwfnq")
+mesh = SubResource("CylinderMesh_ic5ri")
+
+[node name="Space132" type="Marker3D" parent="Spaces"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.246312, 0, -9.791197)
+gizmo_extents = 0.48
+script = ExtResource("3_6bp64")
+space_type = 1
+next_spaces = Array[NodePath]([NodePath("../Space43")])
+
+[node name="CylinderMesh" type="MeshInstance3D" parent="Spaces/Space132"]
+transform = Transform3D(1.2, 0, 0, 0, 0.05, 0, 0, 0, 1.2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_yv31h")
+mesh = SubResource("CylinderMesh_6ecqq")
+
+[node name="spin_number" type="RichTextLabel" parent="."]
+offset_right = 292.0
+offset_bottom = 232.0
+theme_override_font_sizes/normal_font_size = 70
+text = "#"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.08
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="turn_indicator" type="RichTextLabel" parent="Control"]
+layout_mode = 0
+offset_left = 801.0
+offset_top = 92.0
+offset_right = 1068.0
+offset_bottom = 171.0
+theme_override_font_sizes/normal_font_size = 40
+
+[node name="Spin" type="Button" parent="Control"]
+layout_mode = 0
+offset_left = 828.0
+offset_top = 398.0
+offset_right = 1062.0
+offset_bottom = 465.0
+text = "spin"
+script = ExtResource("4_344ge")
+
+[node name="PathUI" type="Control" parent="Control"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="path_selector" type="HBoxContainer" parent="Control/PathUI"]
+layout_mode = 0
+offset_left = 50.0
+offset_top = 529.0
+offset_right = 582.0
+offset_bottom = 622.0
+
+[node name="choice1" type="Button" parent="Control/PathUI/path_selector"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="choice2" type="Button" parent="Control/PathUI/path_selector"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="players" type="Node3D" parent="."]
+
+[node name="player" parent="players" instance=ExtResource("5_ynf5e")]
+
+[node name="player2" parent="players" instance=ExtResource("5_ynf5e")]
+
+[node name="player3" parent="players" instance=ExtResource("5_ynf5e")]
+
+[node name="Camera3D" type="Camera3D" parent="."]
+script = ExtResource("6_21xkr")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(18.11, 0, 0, 0, 18.11, 0, 0, 0, 18.11, 0, -0.15410995, 0)
+mesh = SubResource("PlaneMesh_if84k")
+surface_material_override/0 = SubResource("StandardMaterial3D_nh8i1")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="."]
+omni_range = 25.086
+omni_attenuation = -1.329

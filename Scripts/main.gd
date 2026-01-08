@@ -5,7 +5,6 @@ extends Node3D
 
 var player_current_node: Dictionary[Player, Spaces] = {}
 
-
 @onready var turn_indicator: RichTextLabel = $Control/turn_indicator
 @onready var spin_button: Button = $Control/Spin
 @onready var timer: Timer = $Timer
@@ -26,6 +25,7 @@ var is_spinning := false
 var pending_fork_choice := -1
 
 signal fork_path_selected(choice_index: int)
+signal turn_ended(player: Player)
 
 func _ready() -> void:
 	randomize()
@@ -113,6 +113,7 @@ func _set_current_player(index: int) -> void:
 
 	turn_indicator.clear()
 	turn_indicator.add_text(current_player.name)
+	turn_ended.emit(current_player)
 
 func _advance_turn() -> void:
 	turn_index += 1
@@ -142,20 +143,42 @@ func _move_player(spin: int, player: Player) -> void:
 			else:
 				target_node = current_node.get_node(next_paths[0]) as Spaces
 
-		var tween := create_tween()
-		tween.tween_property(
+		# --- ROTATION LOGIC (yaw only) ---
+		var from := player.global_position
+		var to := target_node.global_position
+		var dir := (to - from)
+		dir.y = 0.0
+
+		if dir.length() > 0.001:
+			var target_yaw := atan2(dir.x, dir.z)
+			var target_basis := Basis(Vector3.UP, target_yaw)
+
+			var rotate_tween := create_tween()
+			rotate_tween.tween_property(
+				player,
+				"basis",
+				target_basis,
+				0.25
+			).set_trans(Tween.TRANS_SINE).set_ease(Tween.EASE_OUT)
+
+			await rotate_tween.finished
+
+		# --- MOVEMENT ---
+		var move_tween := create_tween()
+		move_tween.tween_property(
 			player,
 			"global_position",
 			target_node.global_position,
 			0.6
 		).set_trans(Tween.TRANS_SINE).set_ease(Tween.EASE_IN_OUT)
 
-		await tween.finished
+		await move_tween.finished
 
 		current_node = target_node
 		player_current_node[player] = current_node
 
 	await _handle_space(current_node)
+
 
 func _handle_space(space: Spaces) -> void:
 	space_resolver.handle_space(space, current_player)

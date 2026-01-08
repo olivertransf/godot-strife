@@ -1,3 +1,4 @@
+@tool
 extends Marker3D
 class_name Spaces
 
