@@ -1,4 +1,4 @@
-[gd_scene load_steps=278 format=3 uid="uid://c58awnytudg73"]
+[gd_scene load_steps=281 format=3 uid="uid://c58awnytudg73"]
 
 [ext_resource type="Script" uid="uid://ckaqph3cq4n6s" path="res://Scripts/main.gd" id="1_kry3j"]
 [ext_resource type="Texture2D" uid="uid://cl403rklvky4u" path="res://Assets/IMG_3466.jpeg" id="2_21xkr"]
@@ -7,6 +7,18 @@
 [ext_resource type="Script" uid="uid://cvofpuf6r7d8y" path="res://Scripts/button.gd" id="4_344ge"]
 [ext_resource type="PackedScene" uid="uid://ciflhu4sxo5yj" path="res://Scenes/player.tscn" id="5_ynf5e"]
 [ext_resource type="Script" uid="uid://dddcueg23kf66" path="res://Scripts/camera_3d.gd" id="6_21xkr"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_6bp64"]
+sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+ground_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+
+[sub_resource type="Sky" id="Sky_344ge"]
+sky_material = SubResource("ProceduralSkyMaterial_6bp64")
+
+[sub_resource type="Environment" id="Environment_ynf5e"]
+background_mode = 2
+sky = SubResource("Sky_344ge")
+tonemap_mode = 2
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6bp64"]
 
@@ -684,6 +696,13 @@ albedo_color = Color(0.01, 0.01, 0.0084, 1)
 [node name="Main" type="Node3D" node_paths=PackedStringArray("game_spaces")]
 script = ExtResource("1_kry3j")
 game_spaces = [NodePath("Spaces/Space0")]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_ynf5e")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 0, 0)
+shadow_enabled = true
 
 [node name="Board" type="Sprite3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, -0.007088661, 0.0066099167, -0.00594759)
@@ -2347,7 +2366,3 @@ script = ExtResource("6_21xkr")
 transform = Transform3D(18.11, 0, 0, 0, 18.11, 0, 0, 0, 18.11, 0, -0.15410995, 0)
 mesh = SubResource("PlaneMesh_if84k")
 surface_material_override/0 = SubResource("StandardMaterial3D_nh8i1")
-
-[node name="OmniLight3D" type="OmniLight3D" parent="."]
-omni_range = 25.086
-omni_attenuation = -1.329
